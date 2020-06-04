@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
+import com.santhosh.repo.Model.Data;
 
 @RestController
 public class MainController {
@@ -21,7 +22,7 @@ public class MainController {
 //
 //        return dataRepository.findAll();
 //    }
-    public String send(){
-        return "Hello world";
+    public Data send(){
+        return new Data("Santhosh Kumar");
     }
 }
