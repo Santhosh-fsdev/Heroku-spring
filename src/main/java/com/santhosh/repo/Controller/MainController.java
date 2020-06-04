@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
-import com.santhosh.repo.Model.Data;
+import com.santhosh.repo.model.Data;
 
 @RestController
 public class MainController {
